@@ -1,7 +1,7 @@
 /**
  * 
  */
-package in.cropdata.eurekaserver.rest.controller;
+package in.cropdata.eurekaserver.model;
 
 import java.util.List;
 import java.util.Map;

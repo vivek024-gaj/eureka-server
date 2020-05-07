@@ -7,10 +7,12 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
-    
+  environment: prod
+  datacenter: aws
 spring:
   application:
     name: eureka
   cloud:
     config:
       uri: ${CONFIG_SERVER_URL:http://127.0.0.1:8098}
+      
